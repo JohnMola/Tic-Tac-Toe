@@ -14,7 +14,7 @@ public class Game {
         playerX = new Player('X', scanner);
         playerO = new Player('O', scanner);
     }
-    //Starts the game
+    
     public void start() {
         System.out.println("Welcome to Tic-Tac-Toe!\n");
 

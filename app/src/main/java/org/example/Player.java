@@ -14,7 +14,7 @@ public class Player {
     public char getSymbol() {
         return symbol;
     }
-    //loop for checking player move
+    
     public int getMove(Board board) {
         while (true) {
             System.out.print("\nPlayer " + symbol + ", enter a number (1-9): ");
