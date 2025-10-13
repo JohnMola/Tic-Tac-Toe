@@ -16,7 +16,7 @@ public class Game {
     }
     
     public void start() {
-        System.out.println("Welcome to Tic-Tac-Toe!\n");
+        System.out.println("Welcome to TicTacToe!\n");
 
         boolean playAgain;
         do {
@@ -34,7 +34,7 @@ public class Game {
                     System.out.println("\n Player " + currentPlayer.getSymbol() + " wins! \n");
                     gameEnded = true;
                 } else if (board.isFull()) {
-                    System.out.println("\nIt's a draw!");
+                    System.out.println("\nIt's a tie!");
                     gameEnded = true;
                 } else {
                     currentPlayer = (currentPlayer == playerX) ? playerO : playerX;

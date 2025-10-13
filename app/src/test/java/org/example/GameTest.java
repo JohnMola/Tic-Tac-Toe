@@ -3,11 +3,12 @@ package org.example;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class AppTest {
+class GameTest {
 
     @Test
-    void appRunsWithoutCrashing() {
-        App app = new App();
-        assertNotNull(app);
+    void gameCanBeCreatedWithoutError() {
+        Game g = new Game();
+        assertNotNull(g);
     }
 }
+
