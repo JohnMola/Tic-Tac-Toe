@@ -54,7 +54,6 @@ class BoardTest {
         assertTrue(board.checkWinner('X'));
     }
 
-    // Helper using reflection to peek into private cells
     private char getCell(Board board, int index) {
         try {
             var field = Board.class.getDeclaredField("cells");

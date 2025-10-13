@@ -49,7 +49,7 @@ public class Game {
 
     private boolean askPlayAgain() {
         while (true) {
-             System.out.print("\nDo you want to play again? (Y = Yes, N = Exit): ");
+             System.out.print("\nDo you want to play again? (Y, N): ");
              String response = scanner.nextLine().trim();
 
             if (response.equalsIgnoreCase("Y")) {
