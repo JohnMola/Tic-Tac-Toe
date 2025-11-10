@@ -14,7 +14,6 @@ public class Board {
     }
 
      public void print() {
-        
         System.out.println("\n");
         System.out.println("    " + cells[1] + "  |  " + cells[2] + "  |  " + cells[3]);
         System.out.println("  -----+-----+-----");
