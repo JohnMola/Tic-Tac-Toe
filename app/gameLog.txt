@@ -1,5 +1,5 @@
-Final Tic-Tac-Toe Game Statistics
----------------------------------
-X wins : 2
+Final Game Wins!
+----------------
+X wins : 1
 O wins : 1
 Ties   : 1

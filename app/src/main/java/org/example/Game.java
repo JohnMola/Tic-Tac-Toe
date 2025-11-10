@@ -1,10 +1,8 @@
 package org.example;
 
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-
 
 public class Game {
     private Board board;
@@ -87,8 +85,8 @@ public class Game {
 
     private void saveLogToDisk() {
         try (FileWriter fw = new FileWriter("gameLog.txt")) {
-            fw.write("Final Tic-Tac-Toe Game Statistics\n");
-            fw.write("---------------------------------\n");
+            fw.write("Final Game Wins!\n");
+            fw.write("----------------\n");
             fw.write("X wins : " + xWins + "\n");
             fw.write("O wins : " + oWins + "\n");
             fw.write("Ties   : " + ties + "\n");
